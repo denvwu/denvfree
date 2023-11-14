@@ -760,15 +760,15 @@ class main_crack():
     def pasw(self):       
             pw = []
             clear()
-            print('Put limit between 1 to 30')
+            print('Put limit 30 )
             sl = int(input('How many password do you want to add?: '))
             os.system("clear")
             print(logo)
             print(f'{S} [Example: first123,last1122,firstlast,last,ETC]')
             print('')
             if sl =='':
-                print('\n Put limit between 1 to 30')
-            elif sl > 20:
+                print('\n Put limit 30r')
+            elif sl > 30:
                 print('\nPassword limit Should Not Be Greater Than 30')
             else:
                 for sr in range(sl):
